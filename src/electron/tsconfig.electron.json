@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // Enable strict type-checking rules
+    // (includes strict null checks and other strict checks)
+    "strict": true,
+
+    // Generate modern JavaScript output
+    // without downleveling syntax
+    "target": "ESNext",
+
+    // Use Node.js ESM module behavior/resolution
+    // (important for Electron/Node environments)
+    "module": "NodeNext",
+
+    // Output compiled JavaScript files here
+    "outDir": "../../dist-electron",
+
+    // Skip type-checking declaration files (*.d.ts)
+    // from dependencies for faster builds
+    "skipLibCheck": true
+  }
+}
